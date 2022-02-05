@@ -45,7 +45,19 @@ print(s[6:7])
 print(s[6:20])
 '''
 #searching a string
+'''
 fruit = 'banana'
 pos = fruit.find('a')
 print(pos)
+'''
+# upper case
+'''
+greet = 'Hello Roy'
+pos = greet.upper()
+print(pos) 
+'''
+#lower case
+greet = 'Hello Roy'
+pos = greet.lower()
+print(pos) 
 
