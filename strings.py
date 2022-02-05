@@ -63,7 +63,12 @@ pos = greet.lower()
 print(pos) 
 '''
 #replace
+'''
 greet = 'Hello Roy'
 pos = greet.replace('Roy','john')
 print(pos)
-
+'''
+#stripping whitespace
+greet = '  Hello Roy  '
+greet.strip()
+print(greet) 
