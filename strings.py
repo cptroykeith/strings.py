@@ -48,3 +48,4 @@ print(s[6:20])
 fruit = 'banana'
 pos = fruit.find('a')
 print(pos)
+
