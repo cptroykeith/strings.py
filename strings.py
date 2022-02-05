@@ -38,7 +38,13 @@ for letter in 'banana' :
     print(letter)
     '''
 #slicing strings
+'''
 s = 'monty Python'
 print(s[0:4])
 print(s[6:7])
 print(s[6:20])
+'''
+#searching a string
+fruit = 'banana'
+pos = fruit.find('a')
+print(pos)
