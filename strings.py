@@ -69,6 +69,19 @@ pos = greet.replace('Roy','john')
 print(pos)
 '''
 #stripping whitespace
+'''
 greet = '  Hello Roy  '
 greet.strip()
 print(greet) 
+'''
+#exercise1
+
+str = 'X-DSPAM-Confidence: 0.8475'
+
+pos = str.find(':')
+#print(pos)
+piece = str[pos+2:]
+#print(piece)
+value = float(piece)
+print(value)
+
