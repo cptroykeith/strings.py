@@ -57,7 +57,13 @@ pos = greet.upper()
 print(pos) 
 '''
 #lower case
+'''
 greet = 'Hello Roy'
 pos = greet.lower()
 print(pos) 
+'''
+#replace
+greet = 'Hello Roy'
+pos = greet.replace('Roy','john')
+print(pos)
 
